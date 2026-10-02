@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AMT | Apparel Manufacturing & Technology — BUFT</title>
+  <meta name="description" content="Explore the B.Sc. in Apparel Manufacturing & Technology at BGMEA University of Fashion & Technology (BUFT): curriculum, faculty, facilities, careers, admission and tuition.">
+  <meta name="keywords" content="BUFT, AMT, Apparel Manufacturing and Technology, B.Sc. AMT, apparel manufacturing Bangladesh, garment technology">
+  <meta name="theme-color" content="#0b1f3a">
+  <meta property="og:title" content="Apparel Manufacturing & Technology | BUFT">
+  <meta property="og:description" content="A premium departmental experience for prospective AMT students at BUFT.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="progress"></div>
+
+  <header class="site-header" id="siteHeader">
+    <a class="brand" href="#home" data-route="home" aria-label="AMT BUFT home">
+      <span class="brand-mark">BUFT</span>
+      <span class="brand-copy">
+        <strong>AMT</strong>
+        <small>Apparel Manufacturing & Technology</small>
+      </span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="main-nav" id="mainNav" aria-label="Primary navigation">
+      <a href="#about" data-route="about">About</a>
+      <a href="#curriculum" data-route="curriculum">Curriculum</a>
+      <a href="#admission" data-route="admission">Admission</a>
+      <a href="#faculty" data-route="faculty">Faculty</a>
+      <a href="#careers" data-route="careers">Careers</a>
+      <a href="#gallery" data-route="gallery">Gallery</a>
+      <a class="nav-cta" href="#admission" data-route="admission">Apply</a>
+    </nav>
+  </header>
+
+  <main id="app" aria-live="polite"></main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">BUFT <span>×</span> AMT</div>
+        <p>Department of Apparel Manufacturing & Technology<br>Faculty of Apparel Studies</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="#about" data-route="about">About AMT</a>
+        <a href="#curriculum" data-route="curriculum">Curriculum</a>
+        <a href="#faculty" data-route="faculty">Faculty</a>
+      </div>
+      <div>
+        <h4>Admissions</h4>
+        <a href="#admission" data-route="admission">Eligibility & Fees</a>
+        <a href="https://admission.buft.edu.bd/" target="_blank" rel="noopener">Official Portal ↗</a>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Nishatnagar, Turag<br>Dhaka-1230, Bangladesh</p>
+        <a href="tel:+8801810063355">+880 1810063355</a>
+        <a href="mailto:info@buft.edu.bd">info@buft.edu.bd</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 BUFT AMT Department Experience</span>
+      <span>Built as a front-end SPA concept using HTML, CSS & Vanilla JS.</span>
+    </div>
+  </footer>
+
+  <div class="modal" id="courseModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <article class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" data-close-modal aria-label="Close">×</button>
+      <span class="eyebrow" id="modalCategory">Course</span>
+      <h2 id="modalTitle">Course title</h2>
+      <p id="modalText"></p>
+      <div class="modal-meta" id="modalMeta"></div>
+    </article>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
